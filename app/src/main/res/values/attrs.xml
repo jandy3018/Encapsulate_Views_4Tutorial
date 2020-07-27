@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MoneyEditText">
+        <attr name="allow_negative_values" format="boolean" />
+        <attr name="decimal_digits" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CircularImageView">
+        <attr name="civ_border" format="boolean" />
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_circle_color" format="color" />
+        <attr name="civ_shadow" format="boolean" />
+        <attr name="civ_shadow_color" format="color" />
+        <attr name="civ_shadow_radius" format="float" />
+        <attr name="civ_shadow_gravity">
+            <flag name="center" value="1" />
+            <flag name="top" value="2" />
+            <flag name="bottom" value="3" />
+            <flag name="start" value="4" />
+            <flag name="end" value="5" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SimpleRatingBar">
+        <attr name="srb_borderColor" format="color" />
+        <attr name="srb_fillColor" format="color" />
+        <attr name="srb_backgroundColor" format="color" />
+        <attr name="srb_starBackgroundColor" format="color" />
+        <attr name="srb_pressedBorderColor" format="color" />
+        <attr name="srb_pressedFillColor" format="color" />
+        <attr name="srb_pressedBackgroundColor" format="color" />
+        <attr name="srb_pressedStarBackgroundColor" format="color" />
+        <attr name="srb_numberOfStars" format="integer" />
+        <attr name="srb_starSize" format="dimension" />
+        <attr name="srb_maxStarSize" format="dimension" />
+        <attr name="srb_starsSeparation" format="dimension" />
+        <attr name="srb_starBorderWidth" format="float" />
+        <attr name="srb_starCornerRadius" format="float" />
+        <attr name="srb_isIndicator" format="boolean" />
+        <attr name="srb_rating" format="float" />
+        <attr name="srb_stepSize" format="float" />
+        <attr name="srb_drawBorderEnabled" format="boolean" />
+        <attr name="srb_gravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RouletteView">
+        <attr name="rouletteCenterImage" format="reference" />
+        <attr name="rouletteBorderImage" format="reference" />
+        <attr name="rouletteEdgeColor" format="color" />
+        <attr name="rouletteEdgeWidth" format="integer" />
+        <attr name="rouletteTextSize" format="dimension" />
+        <attr name="rouletteTextPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Tooltip">
+        <attr name="cancelable" format="boolean"/>
+        <attr name="dismissOnClick" format="boolean"/>
+        <attr name="arrowEnabled" format="boolean"/>
+        <attr name="borderArrowEnabled" format="boolean"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="arrowHeight" format="dimension"/>
+        <attr name="arrowWidth" format="dimension"/>
+        <attr name="arrowDrawable" format="reference"/>
+        <attr name="margin" format="dimension"/>
+        <attr name="textAppearance" format="reference"/>
+        <attr name="android:padding"/>
+        <attr name="android:gravity"/>
+        <attr name="android:maxWidth"/>
+        <attr name="android:drawablePadding"/>
+        <attr name="android:drawableBottom"/>
+        <attr name="android:drawableEnd"/>
+        <attr name="android:drawableStart"/>
+        <attr name="android:drawableTop"/>
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:fontFamily"/>
+        <attr name="android:typeface"/>
+        <attr name="android:lineSpacingExtra"/>
+        <attr name="android:lineSpacingMultiplier"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/background_item_color"
+        android:backgroundTint="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/ll_between"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_item_color"
+            android:backgroundTint="#fff"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/ll_center"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_item_color"
+                android:backgroundTint="@color/colorPrimary"
+                android:gravity="center"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Hola"/>
+</LinearLayout>
+
